@@ -6,7 +6,7 @@ cat << EOB
 
 <items>
 
-    <item uid="temperature" valid="no" autocomplete="c2f">
+    <item uid="temperature" valid="no" arg="$TEMP">
         <title>$TEMPºF</title>
         <subtitle>{query}ºC is $TEMPºF</subtitle>
         <icon>thermometer.png</icon>

@@ -6,7 +6,7 @@ cat << EOB
 <?xml version="1.0"?>
 
 <items>
-    <item uid="temperature" valid="no" autocomplete="f2c">
+    <item uid="temperature" valid="no" arg="$TEMP">
         <title>$TEMPºC</title>
         <subtitle>{query}ºF is $TEMPºC</subtitle>
         <icon>thermometer.png</icon>
